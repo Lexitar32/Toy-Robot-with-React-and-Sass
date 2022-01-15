@@ -20,4 +20,15 @@ The application should discard all commands until a valid `place()` command has 
 
 ## To Check Live Site
 
--
+- `https://react-toy-robot.netlify.app/`
+
+## Tech Stack used
+
+- React (Functional Components)
+- Sass for styling
+- Netlify for continous deployment
+
+## React Liraries Installed
+
+- React Icons (`https://react-icons.github.io/react-icons/`)
+- Node Sass for compiling the styles (`https://www.npmjs.com/package/node-sass`)
