@@ -1,0 +1,33 @@
+.board-main {
+  padding: 10px 0;
+  display: flex;
+}
+
+.board-main__searchbar {
+  padding: 10px 0;
+}
+
+.flex-grid {
+  width: 80%;
+}
+
+.flex-grid .col {
+  flex: 1;
+}
+
+.flex-grid-fifth {
+  display: flex;
+}
+
+.flex-grid-fifth .col {
+  width: 20%;
+}
+
+@media (max-width: 768px) {
+  .flex-grid {
+    display: grid !important;
+    grid-template-columns: 4fr !important;
+    margin: auto;
+    max-width: 80%;
+  }
+}

@@ -1,0 +1,27 @@
+.tile {
+  background-color: rgb(128, 181, 255);
+  border: 1px solid black;
+  height: 100px;
+  min-width: 100px;
+}
+
+.tile-full {
+  background-image: url("robot.png");
+  background-size: cover;
+}
+
+.tile-full-facing-north {
+  transform: rotate(180deg);
+}
+
+.tile-full-facing-south {
+  transform: rotate(0deg);
+}
+
+.tile-full-facing-east {
+  transform: rotate(270deg);
+}
+
+.tile-full-facing-west {
+  transform: rotate(90deg);
+}
